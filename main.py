@@ -45,7 +45,7 @@ def chatbot_page():
         if result:
             st.write(f"\nAnswer: {result}\n")
         else:
-            print("\nSorry, I couldn't find an answer to that question.\n")
+            st.warning("Sorry, I couldn't find an answer to that question.")
 
 
 if __name__ == "__main__":

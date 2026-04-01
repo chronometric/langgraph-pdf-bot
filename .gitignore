@@ -24,6 +24,8 @@ Thumbs.db
 *.out
 *.class
 *.o
+__pycache__/
+*.py[cod]
 
 # Ignore dependency directories
 vendor/
